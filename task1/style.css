@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    font-family: "Inter", sans-serif;
+}
+
+.profile-card {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-content {
+    text-align: center;
+    flex: 1; 
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.name {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.location {
+    font-size: 16px;
+    color: #c7e710(36, 90%, 52%);
+    margin: 5px 0;
+}
+
+.description {
+    font-size: 14px;
+    color: #cccccc;
+    margin: 10px 0;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end; 
+    gap: 10px; 
+}
+
+.social-btn {
+    width: 150px; 
+    padding: 10px;
+    background-color: #eb0f0f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.social-btn:hover {
+    background-color: #3f10e7;
+}
